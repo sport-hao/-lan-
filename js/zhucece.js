@@ -1,0 +1,1 @@
+"use strict";$(function(){$(".box3").click(function(){$.ajax({type:"POST",url:"zhuce.php",data:"phone="+$(".box1").val()+"&password="+$(".box2").val(),success:function(o){-1==o?$(".ospan").html("账户已存在"):0==o?$(".ospan").html("注册失败"):($(".ospan").html("注册成功"),setInterval(function(){window.location.href="登入.html"},2e3)),console.log(o)}})})});

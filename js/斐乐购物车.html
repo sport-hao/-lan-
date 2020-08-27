@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/斐乐购物车.css"/>
+	</head>
+	<body>
+		<header>
+			<a href="斐乐首页.html"><img src="../img/1.png" ></a>
+			<input type="text" value="短袖" />
+			<a href="#">搜索</a>
+				<ul>
+					<li><a href="#">登入</a></li>
+					<li><a href="#">注册</a></li>
+					<li><a href="#"><img src="../img/2.png" ></a></li>
+				</ul>
+		</header>
+		<section>
+			<div class="box">
+				<h1><a>您还没有登入</a><br><i>立即去<a href="#">登入</a>或者<a href="#">注册</a>FILA会员</i></h1>
+				<a></a>
+				<p>我的购物车<span></span></p>
+				<div class="box1">
+					<p><img class="pic" src="../img/48.jpg" ></p>
+					<p>您的购物车中没有任何商品，马上去 <a href="http://127.0.0.1:8848/feiyue/js/%E6%96%90%E4%B9%90%E7%89%A9%E5%93%81%E8%AF%A6%E6%83%85%E9%A1%B5.html">挑选商品</a></p>
+				</div>
+				<div class="box2">
+				<table id = "table1" border="0" cellspacing="0">
+					<thead>
+				<tr>
+					<th>商品名称</th>
+					<th>数量</th>
+					<th>单价</th>
+					<th>小计</th>
+					<th>操作</th>
+				</tr>
+				</thead>
+				<tbody>
+				<tr>
+					<td>短袖</td>
+					<td>
+						<button type="button">-</button>
+						<span class="number1">0</span>
+						<button type="button">+</button>
+					</td>
+					<td>
+						单价：<span class="la">20</span>
+					</td>
+					<td>
+						小计：<span class="number2">0</span>
+					</td>
+					<td>
+						<input type="button" value="删除" class="sel"/>
+					</td>
+				</tr>
+					<td  colspan="5">
+						一共<span id="num">0</span>件商品
+					</td>
+				</tr>
+				</table>
+					
+				</div>
+			</div>
+		</section>
+		<footer>
+			<input type="checkbox" checked="checked" name="" id="" value="" />
+			<i>全选商品</i>
+			<p>总价￥<br><span class="zong"></span></p>
+			<p></p>
+			<a class="nn" href="#">结算</a>
+		</footer>
+	</body>
+</html>
+<script src="jQuery_file.js" type="text/javascript" charset="utf-8"></script>
+<script src="gouwuche.js" type="text/javascript" charset="utf-8"></script>

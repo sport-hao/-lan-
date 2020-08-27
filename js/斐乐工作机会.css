@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+a, u, ins {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+img {
+  vertical-align: middle;
+  border: none; }
+
+h2, h3, h4, h5, h6 {
+  font-size: 16px;
+  font-weight: normal; }
+
+b, strong {
+  font-weight: normal; }
+
+i, em {
+  font-style: normal; }
+
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+header {
+  height: 1000px;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  background: white; }
+
+header > a > img {
+  height: 35px;
+  width: 102px;
+  line-height: 1000px;
+  margin-left: 57px; }
+
+header > input {
+  margin-left: 710px;
+  height: 20px;
+  width: 200px;
+  margin-top: 36px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  background: none; }
+
+header > a {
+  line-height: 1000px;
+  font-size: 18px;
+  color: #000000; }
+
+header > ul {
+  margin-left: 83px; }
+
+header > ul > li {
+  line-height: 1000px;
+  margin-left: 16px;
+  float: left; }
+
+header > ul > li > img {
+  height: 16px;
+  width: 16px; }
+
+.box {
+  margin-left: 282px; }
+
+.box > h1 {
+  font-weight: normal; }
+
+.box > p {
+  margin-top: 10px;
+  font-size: 15px; }
+
+.box h1:nth-child(4) {
+  font-weight: bold;
+  margin-top: 43px; }
+
+section {
+  overflow: hidden;
+  margin-top: 149px; }
+
+.box > ul {
+  margin-top: 43px; }
+
+.box > ul > li {
+  margin-top: 28px; }
+
+.box > ul > li > h1 {
+  text-decoration: underline; }
+
+.box1 {
+  margin-top: 63px; }
+
+.box1 > li {
+  font-size: 12px;
+  margin-top: 11px; }
+
+footer {
+  height: 50px;
+  width: 100%;
+  background-color: #03234c;
+  margin-top: 30px; }
+
+.bottom {
+  margin-left: 39px; }
+
+.bottom > ul > li {
+  float: left;
+  margin-left: 25px;
+  font-size: 13px;
+  color: #ffffff;
+  line-height: 50px; }
+
+.bottom > p {
+  color: #ffffff;
+  font-size: 13px;
+  float: left;
+  margin-left: 33px;
+  line-height: 50px; }
+
+.bottom > p > img {
+  height: 24px;
+  width: 30px;
+  margin-left: 15px; }
+
+.picter3 {
+  display: none;
+  position: fixed;
+  top: 69%;
+  left: 430px; }
+
+.bottom > a {
+  color: #ffffff;
+  font-size: 13px;
+  margin-left: 29px;
+  line-height: 50px; }
+
+.bottom > h6 {
+  float: right;
+  margin-right: 59px;
+  color: #765d57;
+  font-size: 12px;
+  margin-top: 9px; }
+
+/*# sourceMappingURL=%EC%B3%C0%D6%B9%A4%D7%F7%BB%FA%BB%E1.css.map */

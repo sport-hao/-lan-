@@ -1,0 +1,168 @@
+*{
+				margin: 0;
+				padding: 0;
+			}
+			li{
+				list-style-type:none
+			}
+			img{
+				vertical-align: middle;
+			}
+			a{
+				text-decoration:none
+			}
+			html,body{
+				height: 100%;
+			}
+			header{
+				/* height:100px; */
+				width: 100%;
+				background-color: #FFFFFF;
+				position: sticky;
+				z-index: 2000;
+				top:0;
+			}
+			.box{
+				line-height: 100px;
+
+			}
+			.box>a>img{
+				height: 35px;
+				width: 102px;
+				margin-left: 57px;
+			}
+			.box>input{
+				border-top: none;
+				border-left: none;
+				border-right: none;
+				width: 200px;
+				margin-left: 743px;
+			}
+			.box>a{
+				color: #000000;
+				font-size: 18px;
+			}
+			.box>ul{
+				float: right;
+				margin-right: 61px;
+				display: flex;
+			}
+			.box>ul>li{
+				margin-left: 21px;
+			}
+			.box>ul>li>a{
+				color: #000000;
+				font-size: 12px;
+			}
+			.box>ul>li>a>img{
+				height: 16px;
+				width: 16px;
+			}
+			section{
+				/* height: 100%; */
+			}
+			.box1{
+				height: 41px;
+				width: 1164px;
+				line-height: 41px;
+				background-color: #FFFFFF;
+				float: right;
+				}
+			.box>h6{
+				float: left;
+			}
+			.box1>ul{
+				display: flex;
+				margin-right: 20px;
+				position: absolute;
+				top: 101.5px;
+				right: 0;
+			}
+			.box1>ul>li{
+				margin-left: 20px;
+			}
+			.box1>ul>li>button{
+				height: 39px;
+				width: 139px;
+				border-radius: 5px;
+			}
+			.box2{
+				height: 42px;
+				width: 1165px;
+				line-height: 42px;
+				background-color: #ffFFFF;
+				float: right;
+			}
+			.box2>ul{
+				display: flex;
+				justify-content: flex-start;
+			}
+			.box2>ul>li{
+				margin-left: 10px;
+				color: #ba9788;
+				font-size: 10px;
+			}
+			.box2>ul>li:hover{
+				color: #000000;
+			}
+			.box3{
+				width: 1165px;
+				height: 100%;
+				background-color: #ffFFFF;
+				float: right;
+			}
+			.box3>ul{
+				display: flex;
+				flex-wrap: wrap;
+			}
+			.box3>ul>li{
+				margin-top: 35px;
+				margin-left: 30px;
+				height: 354px;
+				width: 279px;
+			}
+			.box3>ul>li>a{
+				margin: auto;
+			}
+			.box3>ul>li>a>img{
+				height: 249px;
+				width: 249px;
+				padding: 15px 15px 0 15px;
+			}
+			.box3 ul li:hover{
+				box-shadow:5px 5px 5px #EEEEEE,5px -5px 5px #EEEEEE,-5px 5px 5px #EEEEEE,-5px -5px 5px #EEEEEE;
+				
+			}
+			.box3>ul>li>a>p{
+				color: #000000;
+			}
+			.Oli div{
+				width: 20px;
+				height:0px;
+				background-image: url(../img/14.jpg);
+				background-size: 100% 100%;
+				
+			}
+			.box5{
+				position: absolute;
+				top: 100px;
+				left: 55px;
+			}
+			.box5>ul>li{
+				margin-top: 26px;
+				font-size: 18px;
+				color: #000000;
+				font-weight: bold;
+			}
+			.box5>p{
+				border-bottom: 1px solid #d9d9d9;
+				width: 68px;
+				margin-top: 19px;
+			}
+			.box5>a{
+				font-size: 18px;
+				color: #000000;
+				font-weight: bold;
+				display: block;
+				margin-top: 19px;
+			}

@@ -1,0 +1,1 @@
+$(function(){$(".input2").click(function(){$.ajax({type:"POST",url:"dengru.php",data:"phone="+$(".input").val()+"&password="+$(".input1").val(),success:function(n){1==n?(alert("登录成功"),window.location.href="斐乐首页.html"):alert("登录失败"),console.log(n)}})})});

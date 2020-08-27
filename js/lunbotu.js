@@ -1,0 +1,1 @@
+var time=setInterval(move,3e3),index=0;function move(){console.log(index),$(".img li").eq(index).stop().fadeIn(900).siblings().stop().fadeOut(900),5==++index&&(index=0)}$(".pic").hover(function(){clearInterval(time)},function(){time=setInterval(move,3e3)});
